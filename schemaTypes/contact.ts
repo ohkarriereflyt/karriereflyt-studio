@@ -5,9 +5,9 @@ const contact: IContact = {
     title: 'Contact',
     type: 'document',
     fieldsets: [
-        { name: 'mainSection', title: 'Main Section', options: { collapsible: true, collapsed: true } },
-        { name: 'employeesSection', title: 'Employees Section', options: { collapsible: true, collapsed: true } },
-        { name: 'contactSection', title: 'Contact Section', options: { collapsible: true, collapsed: true } },
+        { name: 'mainSection', title: 'Main Section', options: { collapsible: true, collapsed: false } },
+        { name: 'employeesSection', title: 'Employees Section', options: { collapsible: true, collapsed: false } },
+        { name: 'contactSection', title: 'Contact Section', options: { collapsible: true, collapsed: false } },
     ],
     initialValue: {
         documentTitle: 'Contact us',  

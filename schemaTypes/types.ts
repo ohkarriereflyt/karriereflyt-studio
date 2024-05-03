@@ -82,6 +82,11 @@ export interface IEmployee {
     emailText: string;
     phoneNumber: number; 
     employeeText: string;
+    facebook: string;
+    linkedin: string;
+    bioShort: string;
+    stikkord: string[];
+    bio: string;
 }
 
 export interface IAbout {

@@ -2,15 +2,19 @@ import { IEmployee } from './types';
 
 const employee: IEmployee = {
   name: 'emplyee',
-  title: 'Employees',
+  title: 'Ansatt',
   type: 'document',
   fields: [
-    { name: 'name', type: 'string', title: 'Name' },
-    { name: 'jobTitle', type: 'string', title: 'Job Title' },
-    { name: 'employeeImage', type: 'image', title: 'Employee Image', options: { hotspot: true } },
-    { name: 'emailText', type: 'string', title: 'Email' },
-    { name: 'phoneNumber', type: 'number', title: 'Phone Number' },
-    { name: 'employeeText', type: 'text', title: 'Employee Text' },
+    { name: 'name', type: 'string', title: 'Navn' },
+    { name: 'jobTitle', type: 'string', title: 'Tittel' },
+    { name: 'employeeImage', type: 'image', title: 'Profil bilde', options: { hotspot: true } },
+    { name: 'emailText', type: 'email', title: 'Email' },
+    { name: 'phoneNumber', type: 'string', title: 'Telefon nummer' },
+    { name: 'facebook', type: 'string', title: 'Facebook' },
+    { name: 'linkedin', type: 'string', title: 'LinkedIn' },
+    { name: 'bioShort', type: 'text', title: 'Bio (kort)' },
+    { name: 'stikkord', type: 'array', title: 'Stikkord', of: [{ type: 'string' }] },
+    { name: 'bio', type: 'text', title: 'Bio (full)' },
   ],
 };
 
