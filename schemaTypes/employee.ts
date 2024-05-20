@@ -2,7 +2,7 @@ import { IEmployee } from './types';
 
 const employee: IEmployee = {
   name: 'emplyee',
-  title: 'Ansatt',
+  title: 'Employee',
   type: 'document',
   fields: [
     { name: 'name', type: 'string', title: 'Navn' },
@@ -13,7 +13,7 @@ const employee: IEmployee = {
     { name: 'facebook', type: 'string', title: 'Facebook' },
     { name: 'linkedin', type: 'string', title: 'LinkedIn' },
     { name: 'bioShort', type: 'text', title: 'Bio (kort)' },
-    { name: 'stikkord', type: 'array', title: 'Stikkord', of: [{ type: 'string' }] },
+    { name: 'keywords', type: 'array', title: 'Stikkord', of: [{ type: 'string' }] },
     { name: 'bio', type: 'text', title: 'Bio (full)' },
   ],
 };

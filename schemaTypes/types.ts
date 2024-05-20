@@ -85,7 +85,7 @@ export interface IEmployee {
     facebook: string;
     linkedin: string;
     bioShort: string;
-    stikkord: string[];
+    keywords: string[];
     bio: string;
 }
 
