@@ -117,7 +117,7 @@ export interface IContact {
         _ref: string;  
     }>;
     contactAddress: string;
-    contactPhoneNumber: number;  
+    contactPhoneNumber: string;  
     contactEmail: string;
 }
 

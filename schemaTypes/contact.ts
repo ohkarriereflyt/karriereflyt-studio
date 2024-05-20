@@ -51,7 +51,7 @@ const contact: IContact = {
         },
         {
             name: 'contactPhoneNumber',
-            type: 'number',
+            type: 'string',
             title: 'Phone Number',
             fieldset: 'contactSection'
         },
