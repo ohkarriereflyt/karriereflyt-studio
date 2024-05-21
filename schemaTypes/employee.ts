@@ -12,8 +12,8 @@ const employee: IEmployee = {
     { name: 'phoneNumber', type: 'string', title: 'Telefon nummer' },
     { name: 'facebook', type: 'string', title: 'Facebook' },
     { name: 'linkedin', type: 'string', title: 'LinkedIn' },
-    { name: 'bioShort', type: 'text', title: 'Bio (kort)' },
     { name: 'keywords', type: 'array', title: 'Stikkord', of: [{ type: 'string' }] },
+    { name: 'bioShort', type: 'text', title: 'Bio (kort)' },
     { name: 'bio', type: 'text', title: 'Bio (full)' },
   ],
 };
