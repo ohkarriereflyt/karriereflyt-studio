@@ -159,7 +159,7 @@ const services: IServices = {
 
     //Counseling Section
     {
-      name: 'conselingCategory',
+      name: 'counselingCategory',
       type: 'string',
       title: 'Category',
       fieldset: 'counselingSection',
