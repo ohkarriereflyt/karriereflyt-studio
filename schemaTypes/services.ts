@@ -162,7 +162,7 @@ const services: IServices = {
       name: 'conselingCategory',
       type: 'string',
       title: 'Category',
-      fieldset: 'conselingSection',
+      fieldset: 'counselingSection',
     },
 
     {
